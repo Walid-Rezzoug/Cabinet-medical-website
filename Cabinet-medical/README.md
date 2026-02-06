@@ -1,9 +1,4 @@
-# team1.5
-Boudraa Anis
-Sadi Saber
-Rezzoug Walid
 
-The detailled description of the functions : 
 
 1- Page d'accueil :
 - Information du Médecin ( Spécialite + diplome )

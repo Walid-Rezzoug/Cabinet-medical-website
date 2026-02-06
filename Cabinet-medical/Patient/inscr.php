@@ -146,7 +146,7 @@ button:hover {
     <input type="password" placeholder="comfirmer votre mot de passe" name="psw2" required>
    
     <button type="submit">S'inscrire</button>
-    <a href="../page acceuil/index.html"><button class="button" type=button>Annuler</button></a>
+    <a href="../index.html"><button class="button" type=button>Annuler</button></a>
         </form>
     </div>
 </body>

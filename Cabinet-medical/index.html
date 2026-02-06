@@ -1,20 +1,147 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> my first HTML page</title>
+    <title>Cabinet Médical - Dr. EL-Amrani</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body>
-    <a href="https://www.esst-sup.com/" target="_blank">
-        <img src="ESST-logo.png" width="500" > 
-    </a>
-    <h2> les membres de l'equipe sont :</h2>
-    <li> Boudraa anis </li>
-    <li> Sadi saber yanis </li>
-    <li> Rezzoug walid </li>
 
-    <a href="page acceuil/index.html">Page d'acceuil</a><br>
-<br>
+<body>
+
+    <!-- Header / Navbar -->
+    <header>
+        <div class="container navbar">
+            <div class="logo">
+                <i class="fas fa-heartbeat"></i> Cabinet Dr. EL-Amrani
+            </div>
+            <nav class="nav-links">
+                <a href="#">Accueil</a>
+                <a href="#services">Services</a>
+                <a href="#doctor">Médecin</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="auth-buttons">
+                
+                <a href="Patient/inscr.php" class="btn btn-primary"><i class="fas fa-user-plus"></i> Inscription
+                    Patient</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Votre santé, <span>notre priorité</span></h1>
+            <p>Bienvenue au cabinet du Dr. EL-Amrani. Nous offrons des soins médicaux de qualité dans un environnement
+                moderne et accueillant.</p>
+            <div class="hero-buttons">
+                <a href="Patient/cnx.php" class="btn btn-primary"><i class="fas fa-user-injured"></i> Espace Patient</a>
+                <a href="cnxstaff/index.html" class="btn btn-outline"><i class="fas fa-user-md"></i> Espace Staff</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="features" id="services">
+        <div class="container">
+            <div class="section-title" style="text-align: center;">
+                <h2>Nos Services</h2>
+                <p>Des soins complets adaptés à vos besoins.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-stethoscope feature-icon"></i>
+                    <h3>Consultations Générales</h3>
+                    <p>Diagnostic et traitement des maladies courantes, suivi médical régulier et conseils de
+                        prévention.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-user-md feature-icon"></i>
+                    <h3>Suivi Spécialisé</h3>
+                    <p>Prise en charge des pathologies chroniques et suivi personnalisé pour chaque patient.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-file-medical feature-icon"></i>
+                    <h3>Dossier Médical Numérique</h3>
+                    <p>Accédez à votre historique médical, vos ordonnances et vos résultats en ligne.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Doctor Info Section -->
+    <section class="doctor-section" id="doctor">
+        <div class="container">
+            <div class="section-title">
+                <h2>Votre Médecin</h2>
+                <p>Rencontrez le Dr. Idriss EL-Amrani</p>
+            </div>
+            <div class="doctor-card">
+                <!-- Placeholder Image -->
+                <div class="doctor-info">
+                    <h3>Dr. Idriss EL-Amrani</h3>
+                    <span class="specialty">Médecin Spécialiste</span>
+                    <p>Diplômé de la Faculté de Médecine. Dévoué à fournir les meilleurs soins à ses patients avec une
+                        approche humaine et professionnelle.</p>
+                    <ul style="text-align: left; margin-top: 1rem; color: #666;">
+                        <li><i class="fas fa-graduation-cap"></i> Diplôme d'État de Docteur en Médecine</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Footer Section -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Cabinet Médical</h4>
+                    <p>Votre partenaire santé au quotidien.</p>
+                    <div class="social-links" style="margin-top: 1rem;">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Liens Utiles</h4>
+                    <ul style="line-height: 2;">
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="Patient/cnx.php">Prendre Rendez-vous</a></li>
+                        <li><a href="Patient/cnx.php">Espace Patient</a></li>
+                        <li><a href="cnxstaff/index.html">Espace Personnel</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact-info">
+                    <h4>Contactez-nous</h4>
+                    <ul>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>08 hydra , Alger</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>06 12 34 56 78</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>cabinet.elamrani@email.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 Cabinet Médical Dr. EL-Amrani. Tous droits réservés.
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>
